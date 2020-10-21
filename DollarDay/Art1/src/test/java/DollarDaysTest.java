@@ -19,13 +19,14 @@ public class DollarDaysTest {
 	  System.setProperty("webdriver.chrome.driver", "D://Ritu//Testing Training//Selenium//chromedriver_win32//chromedriver.exe");
 	  WebDriver driver = new ChromeDriver();
       driver.get("http://www.dollardays.com");
+      driver.manage().window().maximize();
       //driver.close();
   }
   @BeforeMethod
   public void beforeMethod() {
   }
 
-  @AfterMethod
+  @AfterMethod.
   public void afterMethod() {
   }
 
